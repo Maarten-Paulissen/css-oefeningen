@@ -1,0 +1,28 @@
+.shape {
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+
+.shape-circle {
+  background-color: #ff6b6b;
+  border-radius: 50%;
+}
+
+.shape-polygon {
+  background-color: #4ecdc4;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.shape-ellipse {
+  background-color: #ffd93d;
+  width: 200px;
+  height: 100px;
+  border-radius: 50%;
+}

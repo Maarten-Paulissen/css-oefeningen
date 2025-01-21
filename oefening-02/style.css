@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: linear-gradient(-45deg, #f00008, #ffcfc1, #fad0c4, #fbc2eb);
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s ease infinite;
+  font-family: Arial, sans-serif;
+}
+
+header,
+main,
+footer {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: #fff;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
